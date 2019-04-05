@@ -2,12 +2,13 @@
 <html>
     <head>
         <title> Share-IT lookalike</title>
-        <script src="trial.js"></script> <!--need this to connect html with js-->
-        <link rel="stylesheet" type="text/css" href="trial.css"> <!--need thsi to connect html with css-->
+        
+        <link rel="stylesheet" type="text/css" href="iot.css"> <!--need thsi to connect html with css-->
         <meta charset="utf-8">
     </head>
     
     <body>
+        <script src="iot.js"></script> <!--need this to connect html with js-->
         <p id="title1">Verify Session</p>
         <div class="gridLayout">
           <div>
@@ -61,7 +62,7 @@
                 <br>
                 <canvas id="canvas" width="640" height="480"></canvas>
         
-                <script>
+                <script> //Button can capture the picture
                      var canvas = document.getElementById('canvas');
                      var context = canvas.getContext('2d');
                      var video = document.getElementById('videoElement');
