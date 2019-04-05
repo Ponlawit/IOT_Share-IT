@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Share-IT lookalike</title>
+        <title> Lender and Borrower COnfirmation</title>
         
         <link rel="stylesheet" type="text/css" href="iot.css"> <!--need thsi to connect html with css-->
         <meta charset="utf-8">
@@ -17,22 +17,22 @@
             <fieldset>
                 <legend>Lender:</legend>
                 Name:<br>
-                <input type="text" name="Name" value="">
+                <input type="text" name="lenderName" value="">
                 <br>
                 ID:<br>
-                <input type="text" name="ID" value="">
+                <input type="text" name="lenderID" value="">
                 </fieldset>
                 <br>
             <fieldset>
                 <legend>Borrower:</legend>
                 Name:<br>
-                <input type="text" name="Name" value="">
+                <input type="text" name="borrowerName" value="">
                 <br>
                 ID:<br>
-                <input type="text" name="ID" value="">
+                <input type="text" name="borrowerID" value="">
                 </fieldset>
                 <br><br>
-            <input type="submit" value="Continue">
+            <input type="submit" value="Confirm">
           </form> 
         </div>
 
@@ -58,7 +58,7 @@
                 }
                 </script>
                 <br>
-                <button id="snap" onclick="captureFunction()">Snap Photo</button>
+                <button id="snap" onclick="captureFunction()">Capture</button>
                 <br>
                 <canvas id="canvas" width="640" height="480"></canvas>
         
