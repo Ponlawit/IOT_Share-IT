@@ -1,0 +1,13 @@
+.summaryLayout{
+    display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+#header1{
+    font-size: 30px;
+    text-align: center;
+}
+
+body{
+    background-color: pink;
+}

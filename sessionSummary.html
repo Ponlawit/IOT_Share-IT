@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Summary of transaction</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="sessionSummary.css"> <!--need thsi to connect html with css-->
+    </head>
+    <body>
+        <div class="summaryLayout"> <!--sequence pics shows lender to item to borrower-->
+            <div></div>
+            <div></div>
+            <div>
+                    <p id="header1">Session Summary</p> <br><br<br><br><br><br><br><br>><br>
+            </div>
+            <div></div>
+            <div></div>
+            <div>
+                <i class="glyphicon glyphicon-user" style="font-size: 100px;"></i> <br><br<br><br><br><br><br><br>><br>
+            </div>
+            
+            <div>
+                 <i class="glyphicon glyphicon-arrow-right" style="font-size: 100px; color:green"></i>
+            </div>
+            
+            <div>
+                <!--pic of item-->
+                <img src="C:\Users\Admin\Pictures\Saved Pictures\DSC00131.JPG" alt="this is euro" width="100" height="100">
+            </div>
+           
+            <div>
+                 <i class="glyphicon glyphicon-arrow-right" style="font-size: 100px; color:green"></i>
+            </div>
+            
+            <div>
+                 <i class="glyphicon glyphicon-user" style="font-size: 100px;"></i>
+            </div>
+            <div></div>
+            <div></div>
+
+            <div>
+                <p style="font-size: 150%">session start:</p>
+                <p id="demo"></p>
+
+                <script>
+                    var d = new Date();
+                    document.getElementById("demo").innerHTML = d;
+                </script>
+                <p style="font-size: 150%">session end:</p>
+                    <!--end time agreed-->
+            </div>
+
+            <div></div>
+
+            <div>
+                    <button>confirm</button>
+            </div>
+
+
+        </div>
+        
+
+
+    </body>
+</html>
